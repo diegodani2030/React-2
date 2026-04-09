@@ -4,6 +4,10 @@ function App (){
 
   const [tarea, setTarea] = useState("")
   const [lista, setLista] = useState([])
+  useEffect(() => {
+
+    console.log(`Tienes ${lista.length} tareas`)
+  })
 
 function Agregar (){
 
